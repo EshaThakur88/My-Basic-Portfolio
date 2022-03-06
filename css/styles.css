@@ -3,7 +3,7 @@ body {
 }
 
 #title {
-  background-color: #ff4c68;
+  background-image: url("https://img.freepik.com/free-photo/abstract-techno-background-with-connecting-lines_1048-5570.jpg?w=740");
   color: #fff;
 }
 
@@ -28,11 +28,11 @@ h1 {
 }
 
 .icon {
-  color: #ff8882;
+  color: #080950;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #1742cf;
 }
 
 .rotate {
@@ -77,7 +77,9 @@ h1 {
 /* skills */
 #skills {
   text-align: center;
-  background-color: #ff8882;
+  /* background-image: url("https://img.freepik.com/free-photo/abstract-binary-code-background_1048-6821.jpg?w=740"); */
+  /* background-color: #2D31FA; */
+  background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
   font-family: "Montserrat-black", sans-serif;
   color: #fff;
 }
@@ -101,8 +103,10 @@ h1 {
 
 /* webd images */
 #webd {
-  background-color: #ff8882;
+  /* background-image: url("https://img.freepik.com/free-photo/abstract-binary-code-background_1048-6821.jpg?w=740"); */
   text-align: center;
+  background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
+
 }
 
 .webd-image {
@@ -127,7 +131,7 @@ h1 {
   }
 }
 
-/* call of action */
+/* call of action
 #cta {
   background-color: #ff4c68;
   text-align: center;
@@ -144,12 +148,17 @@ h1 {
   line-height: 1.2;
   font-family: "Montserrat-black", sans-serif;
   padding: 1% 15%;
-}
+} */
 
+.rotate{
+  border-radius: 50%;
+  width: 70%;
+}
 /* footer */
 
 #footer {
-  background-color: #ff8882;
+  /* background-image: url("https://img.freepik.com/free-photo/3d-render-modern-technology-background-with-female-head_1048-7915.jpg?w=740"); */
+  background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
   text-align: center;
   /* margin: 5% 5%; */
   padding: 10% 5% 5%;
@@ -157,8 +166,8 @@ h1 {
 }
 
 .footericons {
-  padding: 0 15px 20px;
-  color: black;
+  padding: 0 20px 25px;
+  color: rgb(252, 246, 246);
 }
 .footericons:hover{
   color: rgb(124, 116, 116);
@@ -166,5 +175,6 @@ h1 {
 }
 
 .footercopy {
+  color: bisque;
   font-size: 0.9rem;
 }
