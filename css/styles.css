@@ -5,6 +5,7 @@ body {
 #title {
   background-image: url("https://img.freepik.com/free-photo/abstract-techno-background-with-connecting-lines_1048-5570.jpg?w=740");
   color: #fff;
+  
 }
 
 .container {
@@ -34,6 +35,7 @@ h1 {
 .icon:hover {
   color: #1742cf;
 }
+
 
 .rotate {
   margin-top: 5px;
@@ -77,8 +79,6 @@ h1 {
 /* skills */
 #skills {
   text-align: center;
-  /* background-image: url("https://img.freepik.com/free-photo/abstract-binary-code-background_1048-6821.jpg?w=740"); */
-  /* background-color: #2D31FA; */
   background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
   font-family: "Montserrat-black", sans-serif;
   color: #fff;
@@ -103,7 +103,6 @@ h1 {
 
 /* webd images */
 #webd {
-  /* background-image: url("https://img.freepik.com/free-photo/abstract-binary-code-background_1048-6821.jpg?w=740"); */
   text-align: center;
   background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
 
@@ -133,7 +132,7 @@ h1 {
 
 /* call of action
 #cta {
-  background-color: #ff4c68;
+  background-color: #FF8303;
   text-align: center;
   color: #fff;
   padding: 30px 0 50px;
@@ -157,7 +156,6 @@ h1 {
 /* footer */
 
 #footer {
-  /* background-image: url("https://img.freepik.com/free-photo/3d-render-modern-technology-background-with-female-head_1048-7915.jpg?w=740"); */
   background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
   text-align: center;
   /* margin: 5% 5%; */
