@@ -19,7 +19,7 @@ h3 {
 
 h1 {
   font-family: "Montserrat-black", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
@@ -66,17 +66,18 @@ h1 {
 
 /* buttons */
 .Download-button {
-  margin: 8% 0 0 5%;
+  margin: 8% 0 0 0;
 }
-.Download-button {
+
+.Download-button-2 {
   margin: 8% 0 0 5%;
 }
 
 #features {
   background-color: #fff;
   position: relative;
-  z-index: 1;
-  padding: 10% 0;
+  /* z-index: 2.5; */
+  padding: 5% 0;
 }
 
 /* skills */
@@ -85,17 +86,18 @@ h1 {
   background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
   font-family: "Montserrat-black", sans-serif;
   color: #fff;
+  padding: 45px 0;
 }
 
 .skills-text {
   color: #fff;
   font-family: "Montserrat-black", sans-serif;
-  font-size: 2.5rem;
-  line-height: 1.2;
+  font-size: 2.6rem;
+  line-height: 1.4;
 }
 
 .skills-image {
-  padding: 20px 0;
+  padding: 0px 0;
   width: 10%;
   border-radius: 100%;
 }
