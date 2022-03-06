@@ -38,7 +38,6 @@ h1 {
 .rotate {
   margin-top: 5px;
   position: absolute;
-  transform: rotate(30deg);
   width: 60%;
   margin-left: 15%;
 }
@@ -65,7 +64,7 @@ h1 {
 
 /* buttons */
 .Download-button {
-  margin: 8% 3% 0 5%;
+  margin: 8% 0 0 5%;
 }
 
 #features {
@@ -75,22 +74,22 @@ h1 {
   padding: 10% 0;
 }
 
-/* testimonials */
-#testimonials {
+/* skills */
+#skills {
   text-align: center;
   background-color: #ff8882;
   font-family: "Montserrat-black", sans-serif;
   color: #fff;
 }
 
-.testimonial-text {
+.skills-text {
   color: #fff;
   font-family: "Montserrat-black", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.2;
 }
 
-.testimonial-image {
+.skills-image {
   padding: 20px 0;
   width: 10%;
   border-radius: 100%;
@@ -100,36 +99,29 @@ h1 {
   padding: 60px 200px 60px 200px;
 }
 
-/* press */
-#press {
+/* webd images */
+#webd {
   background-color: #ff8882;
   text-align: center;
 }
 
-.press-image {
-  width: 20%;
-  padding: 20px 50px;
+.webd-image {
+  width: 15%;
+  padding: 40px 40px 20px;
 }
 
-/* pricing */
-#pricing {
+/* projects */
+#projects {
   padding: 100px;
   text-align: center;
 }
 
-.pricing-row {
+.projects-row {
   padding: 3% 2%;
 }
 
 /* media query breakpoints */
 @media (max-width: 991px) {
-  .rotate {
-    transform: rotate(0);
-    position: static;
-    padding-top: 20px;
-    padding-right: 90px;
-  }
-
   #title {
     text-align: center;
   }
@@ -157,12 +149,22 @@ h1 {
 /* footer */
 
 #footer {
-  background-color: #fff;
+  background-color: #ff8882;
   text-align: center;
-  margin: 5% 5%;
+  /* margin: 5% 5%; */
+  padding: 10% 5% 5%;
   font-family: "Montserrat-light", sans-serif;
 }
 
 .footericons {
   padding: 0 15px 20px;
+  color: black;
+}
+.footericons:hover{
+  color: rgb(124, 116, 116);
+
+}
+
+.footercopy {
+  font-size: 0.9rem;
 }
