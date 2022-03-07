@@ -8,6 +8,11 @@ body {
   
 }
 
+.myImg{
+  border-radius: 50%;
+  width: 70%;
+}
+
 .container {
   padding: 50px 0 40px 0;
   width: 630px;
@@ -145,7 +150,7 @@ h1 {
   background-image: linear-gradient(to bottom, rgb(31, 13, 13), rgb(21, 68, 129));
 }
 .card-body {
-  background-color: rgb(172, 198, 231);
+  background-color: rgb(213, 229, 252);
 }
 
 /* Aprojects */
@@ -165,10 +170,6 @@ h1 {
   }
 }
 
-.rotate{
-  border-radius: 50%;
-  width: 70%;
-}
 
 
 /* footer */
