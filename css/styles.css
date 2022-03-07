@@ -33,7 +33,7 @@ h1 {
 }
 
 .icon:hover {
-  color: #1742cf;
+  color: rgb(141, 172, 212);
 }
 
 
@@ -73,6 +73,17 @@ h1 {
   margin: 8% 0 0 5%;
 }
 
+
+.btn {
+  background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
+
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom right, rgb(19, 18, 18), rgb(179, 187, 212));
+}
+
+/* features */
 #features {
   background-color: #fff;
   position: relative;
@@ -120,11 +131,30 @@ h1 {
 
 /* projects */
 #projects {
-  padding: 100px;
+  padding: 100px 100px 10px;
   text-align: center;
+  
 }
 
 .projects-row {
+  padding: 3% 2%;
+}
+
+.card-header {
+  color: #fff;
+  background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
+}
+.card-body {
+  background-color: rgb(172, 198, 231);
+}
+
+/* Aprojects */
+#Aprojects {
+  padding: 10px 50px 100px;
+  text-align: center;
+}
+
+.Aprojects-row {
   padding: 3% 2%;
 }
 
@@ -135,29 +165,12 @@ h1 {
   }
 }
 
-/* call of action
-#cta {
-  background-color: #FF8303;
-  text-align: center;
-  color: #fff;
-  padding: 30px 0 50px;
-}
-
-.ctabutton {
-  margin: 20px 10px 50px;
-}
-
-.ctahead {
-  font-size: 3rem;
-  line-height: 1.2;
-  font-family: "Montserrat-black", sans-serif;
-  padding: 1% 15%;
-} */
-
 .rotate{
   border-radius: 50%;
   width: 70%;
 }
+
+
 /* footer */
 
 #footer {
