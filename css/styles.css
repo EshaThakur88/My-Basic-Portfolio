@@ -8,10 +8,6 @@ body {
   
 }
 
-.etImg{
-  border-radius: 50%;
-  width: 40%;
-}
 
 .container {
   padding: 50px 0 40px 0;
@@ -42,11 +38,13 @@ h1 {
 }
 
 
-.rotate {
+.etImg {
   margin-top: 5px;
   position: absolute;
   width: 60%;
   margin-left: 15%;
+  border-radius: 50%;
+  width: 70%;
 }
 
 /* navigation bar */
@@ -150,7 +148,7 @@ h1 {
   background-image: linear-gradient(to bottom, rgb(31, 13, 13), rgb(21, 68, 129));
 }
 .card-body {
-  background-color: rgb(213, 229, 252);
+  background-color: rgb(173, 203, 247);
 }
 
 /* Aprojects */
