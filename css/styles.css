@@ -5,23 +5,6 @@ body {
 #title {
   background-image: url("https://img.freepik.com/free-photo/abstract-techno-background-with-connecting-lines_1048-5570.jpg?w=740");
   color: #fff;
-  
-}
-
-
-.container {
-  padding: 50px 0 40px 0;
-  width: 630px;
-}
-
-h3 {
-  margin-top: 20px;
-}
-
-h1 {
-  font-family: "Montserrat-black", sans-serif;
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .container-fluid {
@@ -29,23 +12,6 @@ h1 {
   padding-bottom: 5%;
 }
 
-.icon {
-  color: #080950;
-}
-
-.icon:hover {
-  color: rgb(141, 172, 212);
-}
-
-
-.etImg {
-  margin-top: 5px;
-  position: absolute;
-  width: 60%;
-  margin-left: 20%;
-  border-radius: 50%;
-  width: 70%;
-}
 
 /* navigation bar */
 .navbar-brand {
@@ -67,24 +33,40 @@ h1 {
   font-family: "Montserrat";
 }
 
-/* buttons */
-.Download-button {
+/* introduction */
+.container {
+  padding: 50px 0 40px 0;
+  width: 630px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.etImg {
+  margin-top: 5px;
+  position: absolute;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 50%;
+  width: 70%;
+}
+
+/*  buttons */
+.button {
   margin: 8% 0 0 0;
 }
 
-.Download-button-2 {
+.button-2 {
   margin: 8% 0 0 5%;
 }
 
-
-.btn {
-  background-image: linear-gradient(to bottom, rgb(31, 13, 13), rgb(21, 68, 129));
-
-}
-
-.btn:hover {
-  background-image: linear-gradient(to top, rgb(5, 4, 51), rgb(81, 205, 221));
-}
 
 /* features */
 #features {
@@ -93,6 +75,15 @@ h1 {
   /* z-index: 2.5; */
   padding: 5% 0;
 }
+
+.icon {
+  color: #080950;
+}
+
+.icon:hover {
+  color: rgb(141, 172, 212);
+}
+
 
 /* skills */
 #skills {
@@ -120,11 +111,11 @@ h1 {
   padding: 60px 200px 60px 200px;
 }
 
+
 /* webd images */
 #webd {
   text-align: center;
   background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
-
 }
 
 .webd-image {
@@ -132,11 +123,11 @@ h1 {
   padding: 40px 40px 20px;
 }
 
+
 /* projects */
 #projects {
   padding: 100px 100px 10px;
   text-align: center;
-  
 }
 
 .projects-row {
@@ -147,9 +138,19 @@ h1 {
   color: #fff;
   background-image: linear-gradient(to bottom, rgb(31, 13, 13), rgb(21, 68, 129));
 }
+
 .card-body {
   background-color: rgb(214, 221, 233);
 }
+
+.btn {
+  background-image: linear-gradient(to bottom, rgb(31, 13, 13), rgb(21, 68, 129));
+}
+
+.btn:hover {
+  background-image: linear-gradient(to top, rgb(5, 4, 51), rgb(81, 205, 221));
+}
+
 
 /* Aprojects */
 #Aprojects {
@@ -161,6 +162,7 @@ h1 {
   padding: 3% 2%;
 }
 
+
 /* media query breakpoints */
 @media (max-width: 991px) {
   #title {
@@ -169,9 +171,7 @@ h1 {
 }
 
 
-
 /* footer */
-
 #footer {
   background-image: linear-gradient(to bottom right, rgb(31, 13, 13), rgb(21, 68, 129));
   text-align: center;
@@ -184,9 +184,9 @@ h1 {
   padding: 0 20px 25px;
   color: rgb(252, 246, 246);
 }
+
 .footericons:hover{
   color: rgb(124, 116, 116);
-
 }
 
 .footercopy {
@@ -194,6 +194,8 @@ h1 {
   font-size: 0.9rem;
 }
 
+
+/* scroll button */
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
