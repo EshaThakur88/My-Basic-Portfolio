@@ -123,6 +123,12 @@ h1 {
   padding: 40px 40px 20px;
 }
 
+.programmer-image {
+  width: 20%;
+  padding: 40px 40px 20px;
+
+}
+
 
 /* projects */
 #projects {
